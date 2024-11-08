@@ -1,0 +1,33 @@
+* { /**/
+    box-sizing: border-box; /*determina che i margini ed i padding mantengano la altezza e lunghezza da noi impostata (al contenitore) */
+    margin: 0;
+    padding: 0;
+}
+
+/* COMPONENTS */
+
+#navbar {
+    padding: 30px 10px;
+    font-size: medium;
+    gap: 20px;
+}
+
+.img {
+    max-height: 100%;
+    max-width: 100%;
+}
+
+/* BUTTONS */
+
+.btn {
+    text-align: center;
+    border: 0 none transparent;
+    padding: 5px 10px;
+}
+
+.btn.start {
+    background-color: #0061FE;
+}
+
+
+
