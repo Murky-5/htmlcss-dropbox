@@ -4,29 +4,114 @@
     padding: 0;
 }
 
+
+
 /* COMPONENTS */
 
 #navbar {
+    display: flex;
     padding: 30px 10px;
-    font-size: medium;
-    gap: 20px;
+    font-size: small;
+    justify-content: space-between;
 }
 
-.img {
+section {
+    width: 100%;
+    max-width: 1200px;
+    display: flex;
+    justify-content: center;
+}
+
+img {
     max-height: 100%;
     max-width: 100%;
 }
+
+.bold {
+    font-weight: bold;
+}
+
+.inline-block {
+    display: inline-block;
+}
+
+.flexbox {
+    display: flex;
+}
+
+/* HEADER */
+
+.header > ol > * {
+    list-style: none;
+    margin: 0 10px;
+}
+
+.links_right {
+    text-align: right;
+}
+
+
+
+/* JUMBOTRON SECTION */
+
+.content_container {
+    width: 100%;
+    display: flex;
+}
+
+
+
+/* JUMBOTRON SPECIALS */
+
+h1.bold {
+    margin-bottom: 30px;
+}
+
+#downarrow{
+    line-height: 3;
+}
+
+
 
 /* BUTTONS */
 
 .btn {
     text-align: center;
+    font-size: small;
     border: 0 none transparent;
+    background-color: transparent;
     padding: 5px 10px;
 }
 
-.btn.start {
+.btn.free {
+    min-width: auto;
+}
+
+
+
+/* IMAGES */
+
+#logo {
+    max-width: 100px;
+}
+
+#img_jubotron {
+    text-decoration: underline;
+}
+
+
+
+/* ELEMENT LOOK */
+
+body > header > .navbar {
+    background-color: #B4D0E6;
+    background-size: 85% auto;
+    border: 1px 0 solid grey;
+}
+
+body > header > #navbar > .links_right > .btn_start {
     background-color: #0061FE;
+    color: #FFF;
 }
 
 
