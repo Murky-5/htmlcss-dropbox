@@ -8,9 +8,15 @@
 
 /* COMPONENTS */
 
-#navbar {
-    display: flex;
+#padding-navbar {
+    width: 100%;
+    max-width: 100%;
     padding: 30px 10px;
+}
+
+.navbar {
+    width: 80%;
+    display: inline-flex;
     font-size: small;
     justify-content: space-between;
 }
@@ -39,6 +45,9 @@ img {
     display: flex;
 }
 
+.spaces {
+    padding-right: 10px;
+}
 /* HEADER */
 
 .header > ol > * {
@@ -103,7 +112,7 @@ h1.bold {
 
 /* ELEMENT LOOK */
 
-body > header > .navbar {
+body > header > #padding-navbar {
     background-color: #B4D0E6;
     background-size: 85% auto;
     border: 1px 0 solid grey;
