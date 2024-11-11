@@ -17,32 +17,36 @@
 </head>
 <body>
     <header>
-        <div id="padding-navbar">
-            <div class="logo">
+        <div id="padding-navbar" class="flexbox gap">
+            <div class="logo flexbox centered">
                 <img id="logo" src="./img/logo-small.png" alt="dropbox_logo">
             </div>
-            <div class="navbar">
-                <div class="header links_left flexbox">
+            <div class="navbar_links flexbox centered">
+                <div class="header flexbox centered">
                     <table>
-                        <tr>
-                            <td class="spaces">Perchè Dropbox</td>
-                            <td class="spaces">Funzioni</td>
-                            <td class="spaces">Piani e Prezzi</td>
+                        <tr class="flexbox gap centered larger">
+                            <td>Perchè Dropbox</td>
+                            <td>Funzioni</td>
+                            <td>Piani e Prezzi</td>
                         </tr>
                     </table>
                 </div>
-                <div class="header links_right flexbox">
+                <div class="header text_right flexbox centered">
                     <table>
-                    <tr>
-                        <td class="spaces">Supporto</td>
-                        <td class="spaces">Contatta l'ufficio vendite</td>
+                    <tr class="flexbox gap centered larger">
+                        <td>Supporto</td>
+                        <td>Contatta l'ufficio vendite</td>
                     </tr>
                 </table>
-                    <button class="btn btn_login">Accedi</button>
-                    <button class="btn btn_start">Inizia</button>
                 </div>
             </div>
-        </div>
+            <div class="h-buttons flexbox align_right" id="btn_align">
+                <button class="btn btn_login larger">Accedi</button>
+                <button class="btn btn_start larger">Inizia</button>
+            </div>
+            
+
+            </div>
         <section>
             <div class="content_container jumbotron">
                 <h1 class="bold" id="title">Tutto ciò che ti serve per il lavoro, in un unico posto</h1>

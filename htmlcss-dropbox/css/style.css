@@ -9,14 +9,15 @@
 /* COMPONENTS */
 
 #padding-navbar {
+    justify-content: space-between;
     width: 100%;
     max-width: 100%;
     padding: 30px 10px;
 }
 
-.navbar {
-    width: 80%;
-    display: inline-flex;
+.navbar_links {
+    width: 100%;
+    max-width: 80%;
     font-size: small;
     justify-content: space-between;
 }
@@ -45,8 +46,16 @@ img {
     display: flex;
 }
 
-.spaces {
-    padding-right: 10px;
+.gap {
+    gap: 20px;
+}
+
+.centered {
+    align-items: center;
+}
+
+.align_right {
+    justify-content: flex-end;
 }
 /* HEADER */
 
@@ -55,11 +64,18 @@ img {
     margin: 0 10px;
 }
 
-.links_right {
+.text_right {
     text-align: right;
 }
 
+.h-buttons {
+    width: 100%;
+    max-width: 10%;
+}
 
+.larger {
+    font-size: 18px;
+}
 
 /* JUMBOTRON SECTION */
 
@@ -86,22 +102,28 @@ h1.bold {
 
 .btn {
     text-align: center;
-    font-size: small;
     border: 0 none transparent;
     background-color: transparent;
-    padding: 5px 10px;
+    padding: 7px 15px;
 }
 
 .btn.free {
     min-width: auto;
 }
 
-
+#btn_align {
+    justify-content: center;
+}
 
 /* IMAGES */
 
+.logo {
+    width: 100%;
+    max-width: 10%;
+}
+
 #logo {
-    max-width: 100px;
+    max-width: 100%;
 }
 
 #img_jubotron {
@@ -118,7 +140,7 @@ body > header > #padding-navbar {
     border: 1px 0 solid grey;
 }
 
-body > header > #navbar > .links_right > .btn_start {
+body > header > #padding-navbar > .h-buttons > .btn_start {
     background-color: #0061FE;
     color: #FFF;
 }
